@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.access_school_client.UI.RegisterTwoActivity"
+    android:gravity="center"
+    android:background="#fff">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:hint="姓名"
+        android:textColorHint="@color/gray_normal"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:hint="  性别"
+        android:textColorHint="@color/gray_normal"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:textColorHint="@color/gray_normal"
+        android:ems="10"
+        android:hint=" 宿舍房间号"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:hint=" 请输入密码"
+        android:textColorHint="@color/gray_normal"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:hint=" 请确认密码"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        android:textColorHint="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:hint="  手机号"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray_normal"
+        android:textColorHint="@color/gray_normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/verification_code"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_send_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape_2"
+            android:text="获取验证码" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reg1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape_2"
+        android:text="注册"
+        android:textColor="@color/gray_normal"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_normal"
+        android:textSize="20dp"
+        android:text="去登陆>>"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+
+</LinearLayout>
+

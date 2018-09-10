@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.TransImgAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OCR"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/trans_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/error"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转换目标类型："
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/style"
+            android:layout_margin="10dp">
+
+        </Spinner>
+        <Button
+            android:id="@+id/upload_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="拍照"
+            android:background="@drawable/button_shape_2"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/upload_album_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text=""
+            android:background="@drawable/button_shape_2"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/multitext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="无内容"
+        android:visibility="gone"
+        android:inputType="textMultiLine"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/progressbar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/pgressbar"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

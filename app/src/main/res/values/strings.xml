@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">智宿</string>
+
+    <string name="hygiene">卫生</string>
+    <string name="deduction_place">扣分位置</string>
+    <string name="deduction_data">扣分值</string>
+    <string name="date">日期</string>
+    <string name="deduction_total">总扣分值</string>
+    <string name="total_price">总价</string>
+    <string name="cost_class">费用类型</string>
+    <string name="cost_consumption">用量</string>
+    <string name="water_and_electric">水电费</string>
+    <string name="cost_total_price">水电费总价</string>
+    <string name="cancel">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <string name="title_activity_cost_chart">CostChartActivity</string>
+
+    <string name="no_data">暂无数据</string>
+
+    <string-array name="type">
+        <item>上网故障</item>
+        <item>门窗故障</item>
+        <item>桌椅故障</item>
+        <item>床铺故障</item>
+        <item>洗浴设施故障</item>
+        <item>风扇故障</item>
+        <item>其他故障</item>
+    </string-array>
+    <string-array name="year">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+    <string-array name="month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="qjtype">
+        <item>事假</item>
+        <item>病假</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HCSListView"><attr format="dimension" name="itemOffsetTop"/><attr format="dimension" name="itemOffsetLeft"/><attr format="boolean" name="itemCenter"/><attr format="boolean" name="itemAlineBottom"/></declare-styleable>
+    <declare-styleable name="HListView"><attr format="dimension" name="dividerHeight"/><attr format="reference" name="listSelector"/></declare-styleable>
+    <string name="app_name">android-widget-externed</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">  
+    	<item name="android:button">@drawable/checkbox</item> 
+    	<item name="android:paddingLeft">24dp</item> 
+    	<item name="android:textSize">14sp</item>
+    	<item name="android:textColor">#555555</item>
+	</style>
+    <style name="VerticalSeekBar" parent="@android:style/Widget.SeekBar">
+	    <item name="android:progressDrawable">@drawable/progress</item>
+	    <item name="android:secondaryProgress">100</item>
+	    <item name="android:thumb">@drawable/bg_seekbar_thumb</item>
+	    <item name="android:paddingLeft">22dp</item>
+	    <item name="android:paddingRight">22dp</item>
+	</style>
+</resources>

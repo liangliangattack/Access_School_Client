@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:background="#fff">
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_return_register"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@mipmap/fanhuijt"/>-->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="历史知识"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/change"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/change7"/>
+
+    <ImageView
+        android:id="@+id/iv_sy"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/birdsaid"
+        android:padding="20dp"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id="@+id/tv_sy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="人生就像愤怒的小鸟，当你失败时，总有几头猪在笑！"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Life is like angry birds.There are always several pigs laughing when you lose."/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="model">
+        <item>c2</item>
+        <item>c1</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>b1</item>
+        <item>b2</item>
+    </string-array>
+    <string-array name="subject">
+        <item>科目一</item>
+        <item>科目四</item>
+    </string-array>
+    <string-array name="fastcompany">
+        <!--<item>顺丰速运</item>-->
+        <item>百世快递</item>
+        <item>中通快递</item>
+        <!--<item>申通快递</item>-->
+        <item>圆通速递</item>
+        <item>韵达速递</item>
+        <item>邮政快递包裹</item>
+        <item>EMS</item>
+        <item>天天快递</item>
+        <item>京东快递</item>
+        <item>优速快递</item>
+        <item>德邦快递</item>
+        <item>宅急送</item>
+        <item>TNT快递</item>
+        <item>UPS</item>
+        <item>DHL</item>
+        <item>FEDEX联邦(国内件）</item>
+        <item>FEDEX联邦(国际件）</item>
+    </string-array>
+    <string-array name="style">
+        <item>中文</item>
+        <item>英文</item>
+        <item>韩文</item>
+        <item>法文</item>
+        <item>俄文</item>
+        <item>葡萄牙文</item>
+        <item>西班牙文</item>
+        <item>越南文</item>
+        <!--英文	EN-->
+        <!--中文	zh-CHS-->
+        <!--韩文	ko-->
+        <!--法文	fr-->
+        <!--俄文	ru-->
+        <!--葡萄牙文	pt-->
+        <!--西班牙文	es-->
+        <!--越南文	vi-->
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#e7e3e2"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@drawable/simple_item"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/simple_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+            <TextView
+                android:id="@+id/simple_content"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="content"/>
+            <TextView
+                android:id="@+id/simple_time"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="time"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/news1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

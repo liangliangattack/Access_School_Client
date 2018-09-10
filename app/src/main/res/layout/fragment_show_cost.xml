@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_select_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_current_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/current_date"
+            android:textColor="@color/color4"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_cost_chart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cost_chart" />
+    </RelativeLayout>
+
+
+    <com.example.administrator.access_school_client.widget.PinnedSectionListView
+        android:id="@+id/lv_group_hoster"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" />
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:visibility="gone" />
+</LinearLayout>

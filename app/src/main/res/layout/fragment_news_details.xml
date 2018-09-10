@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="新闻"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/iv_details"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/news1"/>
+        <TextView
+            android:id="@+id/title_detials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="title"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/content_detials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_detials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_below="@+id/ll_details"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp" />
+
+</RelativeLayout>

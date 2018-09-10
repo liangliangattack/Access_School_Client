@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:id="@+id/rl_date"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFE384">
+
+        <TextView
+            android:id="@+id/tv_date_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:text="@string/month"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tv_total_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:text="@string/cost_total_price"/>
+
+    </RelativeLayout>
+</LinearLayout>

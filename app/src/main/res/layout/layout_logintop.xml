@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/login_back1"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:background="@drawable/back_login"
+        android:paddingTop="40dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:paddingTop="8dp"
+        android:paddingLeft="-90dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:text="Log In" />
+
+</LinearLayout>

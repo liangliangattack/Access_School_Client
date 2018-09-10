@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: SMSSDK-3.0.0:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/SMSSDK-3.0.0.aar/861c339afb2c2fe8e111d04e945d10ba/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/SMSSDK-3.0.0.aar/861c339afb2c2fe8e111d04e945d10ba/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,32 @@
+com.guo.android_extend
+int attr dividerHeight 0x7f040001
+int attr itemAlineBottom 0x7f040002
+int attr itemCenter 0x7f040003
+int attr itemOffsetLeft 0x7f040004
+int attr itemOffsetTop 0x7f040005
+int attr listSelector 0x7f040006
+int drawable bg_checkbox_box 0x7f090001
+int drawable bg_checkbox_checker 0x7f090002
+int drawable bg_seekbar_progress 0x7f090003
+int drawable bg_seekbar_secondary 0x7f090004
+int drawable bg_seekbar_thumb 0x7f090005
+int drawable bg_vertical_seekbar_progress 0x7f090006
+int drawable bg_vertical_seekbar_secondary 0x7f090007
+int drawable bg_vertical_seekbar_thumb 0x7f090008
+int drawable bgxml_checkbox 0x7f090009
+int drawable checkbox 0x7f09000a
+int drawable ic_launcher 0x7f09000b
+int drawable progress 0x7f09000c
+int string app_name 0x7f150001
+int style AppBaseTheme 0x7f160001
+int style AppTheme 0x7f160002
+int style CustomCheckBox 0x7f160003
+int style VerticalSeekBar 0x7f160004
+int[] styleable HCSListView { 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005 }
+int styleable HCSListView_itemAlineBottom 0
+int styleable HCSListView_itemCenter 1
+int styleable HCSListView_itemOffsetLeft 2
+int styleable HCSListView_itemOffsetTop 3
+int[] styleable HListView { 0x7f040001, 0x7f040006 }
+int styleable HListView_dividerHeight 0
+int styleable HListView_listSelector 1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Access_School_Client180823.iml" filepath="$PROJECT_DIR$/Access_School_Client180823.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-extend/android-extend.iml" filepath="$PROJECT_DIR$/android-extend/android-extend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+    </modules>
+  </component>
+</project>

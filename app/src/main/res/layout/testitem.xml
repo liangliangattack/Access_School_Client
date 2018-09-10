@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rlCenter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="6dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_dateTimeExpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014/06/24 20:55:28"
+        android:textColor="#999"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_remarkExpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dateTimeExpress"
+        android:layout_marginTop="5dp"
+        android:text="在湖南隆回县公司进行到件扫描"
+        android:textColor="#999"
+        android:textSize="12sp" />
+</RelativeLayout>
