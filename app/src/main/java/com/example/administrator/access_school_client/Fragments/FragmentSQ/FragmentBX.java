@@ -12,7 +12,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.administrator.access_school_client.R;
 
@@ -20,11 +22,19 @@ import static android.app.Activity.RESULT_OK;
 
 public class FragmentBX extends Fragment {
     ImageView bx_img;
+    private Button bx_button;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_bx,container,false);
         bx_img=view.findViewById(R.id.bx_img);
+        bx_button = view.findViewById(R.id.bx_button);
+        bx_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "保修申请已提交", Toast.LENGTH_SHORT).show();
+            }
+        });
         bx_img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

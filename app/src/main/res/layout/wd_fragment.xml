@@ -177,7 +177,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:textSize="15sp"
-                            android:text="保修"
+                            android:text="历史保修"
                             android:gravity="center"
                             android:layout_marginLeft="10dp"/>
                         <ImageView
